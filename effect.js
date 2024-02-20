@@ -178,8 +178,8 @@ $('document').ready(function(){
 			$("p:nth-child("+i+")").fadeIn('slow').delay(1500);
 			if(i==50){
 				$("p:nth-child(49)").fadeOut('slow').promise().done(function () {
-					
 					$('.foto').addClass('foto-come');
+					$('.foto').removeClass('foto');
 				});
 				
 			}
