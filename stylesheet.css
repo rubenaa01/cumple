@@ -1281,6 +1281,9 @@ audio {
 	font-weight: bold;
 }
 .foto {
+	display:none;
+}
+.foto-come {
 	
 position: relative;
     margin-top: -35%;
