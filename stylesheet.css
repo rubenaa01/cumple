@@ -1280,6 +1280,16 @@ audio {
 	display: none;
 	font-weight: bold;
 }
+.foto {
+	
+  position:absolute;
+  display:none;
+ // top:30%; 
+  left:50%;
+  margin-left:-(@D/2);
+  width:@D; height:@D;
+	z-index:1000;
+}
 
 .btn-primary {
         border-color: #466baf;
